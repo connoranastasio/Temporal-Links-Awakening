@@ -1,0 +1,6 @@
+pyboy>=2.6.0
+stable-baselines3
+opencv-python
+torch
+tensorboard
+numpy
