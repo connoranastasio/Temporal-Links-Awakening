@@ -3,11 +3,11 @@ from pyboy import PyBoy
 from pyboy.utils import WindowEvent
 from pathlib import Path
 
-ROM_PATH = "roms/LinksAwakening-Rev2.gb"
-STATE_PATH = "roms/LinksAwakening-Rev2.gb.state"
+ROM_PATH = "roms/LinksAwakeningDX-Rev2.gbc"
+STATE_PATH = "roms/LinksAwakeningDX-Rev2.gbc.state"
 
-# Start emulator
-pyboy = PyBoy(ROM_PATH, window="null")
+# Start emulator with CGB mode enabled
+pyboy = PyBoy(ROM_PATH, window="null", cgb=True)
 pyboy.set_emulation_speed(0)
 
 # Wait for the intro to finish (approx 12 seconds)

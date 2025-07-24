@@ -1,6 +1,6 @@
 # Python 3.11 required (used with uv and .python-version)
 
-git+https://github.com/Baekalfen/PyBoy.git@master
+-e git+https://github.com/Baekalfen/PyBoy.git#egg=pyboy
 stable-baselines3
 opencv-python
 torch

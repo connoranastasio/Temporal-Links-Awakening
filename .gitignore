@@ -13,6 +13,7 @@ roms/
 *.gbc
 *.gba
 *.state
+PyBoy/
 
 # State and checkpoint data
 states/
@@ -22,6 +23,7 @@ videos/
 logs/
 tensorboard_logs/
 ram_log.txt
+DXRev2_RAM_Addresses and sha.txt
 
 # VSCode or editor metadata
 *.Identifier
@@ -29,6 +31,7 @@ ram_log.txt
 # Dev/utility scripts (optional)
 inspect_ram.py
 play_rom.py
+run_emulator.py
 
 # Build artifacts
 *.zip

@@ -7,7 +7,7 @@ from gymnasium.spaces import Box, Discrete
 
 class LinkEnv(gym.Env):
     """
-    Reinforcement learning environment for Link's Awakening using PyBoy.
+    Reinforcement learning environment for Link's Awakening DX using PyBoy.
     """
 
     def __init__(self, render=False):
@@ -17,7 +17,7 @@ class LinkEnv(gym.Env):
         self.render_enabled = render
 
         window_arg = "SDL2" if render else "null"
-        self.pyboy = PyBoy("roms/LinksAwakening-Rev2.gb", window=window_arg)
+        self.pyboy = PyBoy("roms/LinksAwakeningDX-Rev2.gbc", window=window_arg, cgb=True)
         self.pyboy.set_emulation_speed(0)
 
         self.buttons = [
@@ -35,10 +35,10 @@ class LinkEnv(gym.Env):
         super().reset(seed=seed)
 
         self.pyboy.stop()
-        self.pyboy = PyBoy("roms/LinksAwakening-Rev2.gb", window="null")
+        self.pyboy = PyBoy("roms/LinksAwakeningDX-Rev2.gbc", window="null", cgb=True)
         self.pyboy.set_emulation_speed(0)
 
-        with open("roms/LinksAwakening-Rev2.gb.state", "rb") as f:
+        with open("roms/LinksAwakeningDX-Rev2.gbc.state", "rb") as f:
             self.pyboy.load_state(f)
 
         obs = self._get_obs()
