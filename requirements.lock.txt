@@ -35,7 +35,7 @@ packaging==25.0
 pandas==2.3.1
 pillow==11.3.0
 protobuf==6.31.1
-pyboy==2.6.0
+pyboy @ git+https://github.com/Baekalfen/PyBoy.git@02fe4f3b363bae413d9b81f34338c110c49ff409
 pyparsing==3.2.3
 pysdl2==0.9.17
 pysdl2-dll==2.32.0

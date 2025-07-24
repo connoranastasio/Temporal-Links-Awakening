@@ -1,63 +1,34 @@
-# Local Python environment
+# Python virtual environments and cache
 .venv/
-*.pyc
 __pycache__/
-
-# ROMs
-roms/*.gb
-
-# Models & Logs
-models/
-logs/
-
-# Environment lock files (optional)
+*.pyc
+*.pyo
+*.pyd
+.Python
 .python-version
 
-# OS-specific junk
-.DS_Store
-Thumbs.db
+# PyBoy/ROM-related
+roms/
+*.gb
+*.gbc
+*.gba
+*.state
 
-# Byte-compiled / optimized / DLL files
-*.py[codz]
-*$py.class
+# State and checkpoint data
+states/
+states backup/
+checkpoints/
+videos/
+logs/
+tensorboard_logs/
+ram_log.txt
 
-# Environments
-.env
-.envrc
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# VSCode or editor metadata
+*.Identifier
 
-# C extensions
-*.so
-
-# Test / coverage
-.tox/
-.nox/
-.pytest_cache/
-.coverage
-coverage.xml
-htmlcov/
-.hypothesis/
-
-# IDE/editor-specific
-.idea/
-.vscode/
-.spyderproject
-.spyproject
+# Dev/utility scripts (optional)
+inspect_ram.py
+play_rom.py
 
 # Build artifacts
-build/
-dist/
-*.egg-info/
-*.egg
-*.manifest
-*.spec
-
-# Notebooks
-.ipynb_checkpoints
-
-# Pyre
-.pyre/
+*.zip

@@ -1,6 +1,9 @@
-pyboy>=2.6.0
+# Python 3.11 required (used with uv and .python-version)
+
+git+https://github.com/Baekalfen/PyBoy.git@master
 stable-baselines3
 opencv-python
 torch
 tensorboard
 numpy
+gymnasium==1.1.1
