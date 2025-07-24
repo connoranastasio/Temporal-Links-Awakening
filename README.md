@@ -1,8 +1,8 @@
-# Temporal Link's Awakening DX
+# Temporal Link's Awakening
 A deep reinforcement learning project where an AI agent learns to play The Legend of Zelda: Link’s Awakening DX using PyBoy.
 
 ## ROM
-Rom Revision: The Legend of Zelda: Link’s Awakening (USA, Europe) (Rev 2)
+Rom Revision: The Legend of Zelda: Link’s Awakening DX (USA, Europe) (Rev 2)
 
 File Name: LinksAwakeningDX-Rev2.gbc
 
