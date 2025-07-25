@@ -2,7 +2,7 @@
 
 An AI that learns to play *The Legend of Zelda: Link’s Awakening DX* using deep reinforcement learning and the PyBoy emulator.
 
-> **Disclaimer:** This project does not support or condone piracy. You must legally own *Link’s Awakening DX* and dump your own ROM. See the [Piracy Disclaimer](#-piracy-disclaimer) below for full details.
+> **Disclaimer:** This project does not support or condone piracy. You must legally own *Link’s Awakening DX* and dump your own ROM. See the [Piracy Disclaimer](#piracy-disclaimer) below for full details.
 
 
 ---
@@ -14,7 +14,7 @@ An AI that learns to play *The Legend of Zelda: Link’s Awakening DX* using dee
 - **SHA-1 Hash:** `1c091225688d966928cc74336dbef2e07d12a47c`  
 - **SHA-256 Hash:** `5dee5816ed9b46cfc4a2d94f275e555dd3c5080eca00ded975a41a881a6d4c06`
 
-Place the ROM in the `roms/` directory. 
+Create a driectory `roms/` in your project root and place the ROM in the `roms/` directory. 
 
 ---
 
@@ -83,8 +83,6 @@ This policy is non-negotiable and strictly enforced.
 ## Credits
 
 This project builds on the work of several incredible open-source creators, libraries, and communities:
-
-This project builds on the work of several incredible open-source creators and tools:
 
 - [**PyBoy**](https://github.com/Baekalfen/PyBoy) (MIT License) – Game Boy emulator in Python by [@Baekalfen](https://github.com/Baekalfen), which makes reinforcement learning on GB/GBC games possible.
 - [**PokemonRedExperiments**](https://github.com/PWhiddy/PokemonRedExperiments/tree/master) (MIT License) – By [@PWhiddy](https://github.com/PWhiddy). While this project is not directly based on any of their code, their project offered inspiration and a clear example of successful emulator-based reinforcement learning in action. It's also awesome in general, definitely check it out.
